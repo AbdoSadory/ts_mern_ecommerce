@@ -1,0 +1,53 @@
+import type { Product } from "./types/Product"
+
+export const sampleProducts: Product[] = [
+  {
+    name: "Air Max 90",
+    slug: "air-max-90",
+    category: "Shoes",
+    image: "/images/p1.jpg",
+    price: 129.99,
+    brand: "Nike",
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 120,
+    description: "Classic basketball shoe with modern design.",
+  },
+  {
+    name: "Air Jordan 1",
+    slug: "air-jordan-1",
+    category: "Shoes",
+    image: "/images/p2.jpg",
+    price: 179.99,
+    brand: "Nike",
+    countInStock: 5,
+    rating: 4.8,
+    numReviews: 200,
+    description: "Iconic basketball shoe with timeless design.",
+  },
+  {
+    name: "Yeezy Boost 350",
+    slug: "yeezy-boost-350",
+    category: "Shoes",
+    image: "/images/p3.jpg",
+    price: 220.0,
+    brand: "Adidas",
+    countInStock: 3,
+    rating: 4.6,
+    numReviews: 150,
+    description: "Premium running shoe with innovative Boost technology.",
+  },
+  {
+    name: "UltraBoost 21",
+    slug: "ultraboost-21",
+    category: "Shoes",
+    image: "/images/p4.jpg",
+    price: 180.0,
+    brand: "Adidas",
+    countInStock: 7,
+    rating: 4.7,
+    numReviews: 180,
+    description:
+      "High-performance running shoe with responsive Boost technology.",
+  },
+]
